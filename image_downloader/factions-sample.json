@@ -1,0 +1,17 @@
+[
+    {
+      "faction": "lenderbot",
+      "years": [
+        { "year": "1982", "names": ["jabronitron", "Hoser" ] },
+        { "year": "1983", "names": ["Crunchy_bar", "Tim"] }
+      ]
+    },
+    {
+      "faction": "repocons",
+      "years": [
+        { "year": "1981", "names": ["drunk-stanley", "kiki_-_bouba"] },
+        { "year": "1997", "names": ["uncle_sarge", "windowless-van-guy"] }
+      ]
+    }
+  ]
+  

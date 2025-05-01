@@ -1,0 +1,9 @@
+
+diffusers
+transformers
+peft
+accelerate
+opencv-python
+pillow
+xformers
+gradio

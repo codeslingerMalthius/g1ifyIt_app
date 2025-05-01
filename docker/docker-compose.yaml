@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  transformer-app:
+    build: .
+    ports:
+      - "7860:7860"
+    volumes:
+      - ./vehicles:/app/vehicles         # Mount vehicle data folder
+      - ./robots:/app/robots             # Mount robot images folder
+      - ./metadata.json:/app/metadata.json   # Mount metadata file
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: ["./venv/bin/python", "app.py"]
